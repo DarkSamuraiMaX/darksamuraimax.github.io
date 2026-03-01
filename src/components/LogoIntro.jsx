@@ -40,7 +40,7 @@ export default function LogoIntro() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
-          className="text-4xl font-bold text-white tracking-widest"
+          className="text-4xl font-bold text-white tracking-widest mx-auto"
         >
           Welcome to the secret location
         </motion.h1>
