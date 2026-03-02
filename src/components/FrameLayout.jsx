@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function FrameLayout({ children }) {
   return (
@@ -14,14 +15,14 @@ export default function FrameLayout({ children }) {
 
         {/* Логотип по центру */}
 <div className="absolute inset-0 flex justify-center items-end pb-3 select-none">
-  <a href="/" className="pointer-events-auto">
+  <Link to="/" className="pointer-events-auto">
     <img
       src="/frame/logo.png"
       alt="DarkSamurai's Lair"
       className="h-9 opacity-100 select-none"
       draggable="false"
     />
-  </a>
+  </Link>
 </div>
       </div>
 
