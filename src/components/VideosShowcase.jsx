@@ -89,7 +89,7 @@ export default function VideosShowcase() {
 
       {/* Ссылка */}
       <div className="text-right">
-        <Link to="/videos"
+        <Link to="videos"
           className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-200 transition text-sm font-medium"
         >
           {t("text_home_videos_more")}

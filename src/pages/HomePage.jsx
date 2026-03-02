@@ -52,7 +52,7 @@ export default function HomePage() {
           <Header />
 
             {/* ---------- ОБО МНЕ ---------- */}
-            <section id="about" className="text-center scroll-mt-24">
+            <section id="about-section" className="text-center scroll-mt-24">
              <br />
 			 <h2 className="text-3xl font-bold mb-4">{t("text_title_about")}</h2>
               <p className="text-gray-300 max-w-3xl mx-auto">
@@ -60,7 +60,8 @@ export default function HomePage() {
               </p>
 
               <div className="text-right mt-4">
-                <Link to="/about"
+                <Link to="
+				about"
                   className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-200 transition text-sm font-medium"
                 >
                   {t("text_home_more_1")}
@@ -76,14 +77,14 @@ export default function HomePage() {
 			<br />
 
             {/* ---------- РОЛИКИ ---------- */}
-            <section id="videos" className="scroll-mt-24">
+            <section id="videos-section" className="scroll-mt-24">
               <h2 className="text-3xl font-bold py-6">{t("text_title_videos")}</h2>
               <VideosShowcase />
             </section>
 			<br />
 
             {/* ---------- ДОКУМЕНТЫ ---------- */}
-            <section id="blog" className="scroll-mt-24">
+            <section id="documents-section" className="scroll-mt-24">
               <h2 className="text-3xl font-bold mb-6">{t("text_title_documents")}</h2>
 
               <div className="bg-black/40 rounded-xl p-8 shadow-lg backdrop-blur-sm">
@@ -106,7 +107,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="text-right mt-6">
-                  <Link to="/documents"
+                  <Link to="documents"
                     className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-200 transition text-sm font-medium"
                   >
                     {t("text_home_more_2")}

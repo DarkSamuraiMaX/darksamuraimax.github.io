@@ -97,7 +97,7 @@ const konamiCode = [
 
 
   return (
-    <section id="games" className="relative bg-transparent text-white">
+    <section id="games-section" className="relative bg-transparent text-white">
       <div className="mx-auto -mb-7">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-3xl font-bold">{t("text_title_games")}</h2>
@@ -136,7 +136,7 @@ const konamiCode = [
 
               {/* Ссылка */}
               <div className="text-right">
-                <Link to="/games"
+                <Link to="games"
                   className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-200 transition text-sm font-medium"
                 >
 				{t("text_home_games_more")}
