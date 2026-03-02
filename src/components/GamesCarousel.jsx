@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useLanguage } from "../i18n/LanguageContext";
+import { Link } from "react-router-dom";
 
 export default function GamesCarousel() {
   
@@ -135,8 +136,7 @@ const konamiCode = [
 
               {/* Ссылка */}
               <div className="text-right">
-                <a
-                  href="/games"
+                <Link to="/games"
                   className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-200 transition text-sm font-medium"
                 >
 				{t("text_home_games_more")}
@@ -154,7 +154,7 @@ const konamiCode = [
                       d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
 

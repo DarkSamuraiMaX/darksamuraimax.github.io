@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import GamesCarousel from "../components/GamesCarousel";
 import VideosShowcase from "../components/VideosShowcase";
 import { useLanguage } from "../i18n/LanguageContext";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   const [showIntro, setShowIntro] = useState(true);
@@ -59,12 +60,11 @@ export default function HomePage() {
               </p>
 
               <div className="text-right mt-4">
-                <a
-                  href="/about"
+                <Link to="/about"
                   className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-200 transition text-sm font-medium"
                 >
                   {t("text_home_more_1")}
-                </a>
+                </Link>
               </div>
             </section>
 
@@ -106,12 +106,11 @@ export default function HomePage() {
                 </div>
 
                 <div className="text-right mt-6">
-                  <a
-                    href="/documents"
+                  <Link to="/documents"
                     className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-200 transition text-sm font-medium"
                   >
                     {t("text_home_more_2")}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </section>

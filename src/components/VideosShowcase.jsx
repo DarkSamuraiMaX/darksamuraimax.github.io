@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { useLanguage } from "../i18n/LanguageContext";
+import { Link } from "react-router-dom";
 
 export default function VideosShowcase() {
   const { t } = useLanguage();
@@ -88,8 +89,7 @@ export default function VideosShowcase() {
 
       {/* Ссылка */}
       <div className="text-right">
-        <a
-          href="/videos"
+        <Link to="/videos"
           className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-200 transition text-sm font-medium"
         >
           {t("text_home_videos_more")}
@@ -107,7 +107,7 @@ export default function VideosShowcase() {
               d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );
