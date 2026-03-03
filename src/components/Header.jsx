@@ -48,9 +48,9 @@ export default function Header() {
 		{t("text_title_documents")}
 		</Link>
 		
-		<a href="/#contact" className="hover:text-yellow-300 transition">
+		<Link to="/#contact" className="hover:text-yellow-300 transition">
 		{t("text_title_contacts")}
-		</a>
+		</Link>
         </nav>
         </div>
 
