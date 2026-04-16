@@ -13,9 +13,9 @@ export default function GamesPage() {
   const commercialProjects = [
     {
 	slug: "nda",
-      title: t("text_games_commercial_1_name"),
+      title: t("text_games_commercial_3_name"),
       description:
-        t("text_games_commercial_1_desc"),
+        t("text_games_commercial_3_desc"),
       image: "/images/ndagoddamnit.jpg",
       screenshots: [
         "/images/nda1.jpg",
@@ -30,12 +30,12 @@ export default function GamesPage() {
 		"/images/nda10.jpg",
       ],
       extraText:
-        t("text_games_commercial_1_extra"),
+        t("text_games_commercial_3_extra"),
 	  extraLinks: [
-		{ label: t("text_games_commercial_1_link_1") },
-		{ label: t("text_games_commercial_1_link_2") },
-		{ label: t("text_games_commercial_1_link_3") },
-		{ label: t("text_games_commercial_1_link_4")},
+		{ label: t("text_games_commercial_3_link_1") },
+		{ label: t("text_games_commercial_3_link_2") },
+		{ label: t("text_games_commercial_3_link_3") },
+		{ label: t("text_games_commercial_3_link_4")},
 		],
     },
     {
@@ -65,8 +65,8 @@ export default function GamesPage() {
 		],
     },
 	    {
-      title: t("text_games_commercial_3_name"),
-      description: t("text_games_commercial_3_desc"),
+      title: t("text_games_commercial_1_name"),
+      description: t("text_games_commercial_1_desc"),
       image: "/images/pikanonogram.jpg",
       screenshots: [
         "/images/pika1.jpg",
@@ -81,17 +81,35 @@ export default function GamesPage() {
 		"/images/pika10.jpg",
       ],
       extraText:
-        t("text_games_commercial_3_extra"),
+        t("text_games_commercial_1_extra"),
 	  extraLinks: [
-	  	{ label: t("text_games_commercial_3_link_1"), url: "https://drive.google.com/file/d/1BDI8tueXdo09YLCspR5R39f2IXKqu0SB/view?usp=sharing" },
+	  	{ label: t("text_games_commercial_1_link_1"), url: "https://drive.google.com/file/d/1BDI8tueXdo09YLCspR5R39f2IXKqu0SB/view?usp=sharing" },
 		],
     },
   ];
 
   const nonCommercialProjects = [
     {
-      title: t("text_games_noncommercial_1_name"),
-      description: t("text_games_noncommercial_1_desc"),
+      title: t("text_games_noncommercial_13_name"),
+      description: t("text_games_noncommercial_13_desc"),
+      image: "/images/invisible.jpg",
+      screenshots: [
+        "/images/invisible1.jpg",
+        "/images/invisible2.jpg",
+		"/images/invisible3.jpg",
+		"/images/invisible4.jpg",
+		"/images/invisible5.jpg",
+      ],
+      extraText:
+        t("text_games_noncommercial_13_extra"),
+			  extraLinks: [
+		{ label: t("text_games_noncommercial_13_link_1"), url: "https://drive.google.com/file/d/1FC8EVa73Eb0pa9JIsT9tO5GM1TZRycOM/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_13_link_2"), url: "https://itch.io/jam/anthology-jam-2026/rate/4451230" },
+		],
+    },
+    {
+      title: t("text_games_noncommercial_12_name"),
+      description: t("text_games_noncommercial_12_desc"),
       image: "/images/carpetracer.jpg",
       screenshots: [
         "/images/carpetracer1.jpg",
@@ -101,15 +119,15 @@ export default function GamesPage() {
 		"/images/carpetracer5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_1_extra"),
+        t("text_games_noncommercial_12_extra"),
 			  extraLinks: [
-		{ label: t("text_games_noncommercial_1_link_1"), url: "https://drive.google.com/file/d/1r5Un6I1qAG2UIarGr8h8Z4qt47tQYzqx/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_1_link_2"), url: "https://itch.io/jam/gamedevtv-jam-2025/rate/3592708" },
+		{ label: t("text_games_noncommercial_12_link_1"), url: "https://drive.google.com/file/d/1r5Un6I1qAG2UIarGr8h8Z4qt47tQYzqx/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_12_link_2"), url: "https://itch.io/jam/gamedevtv-jam-2025/rate/3592708" },
 		],
     },
     {
-      title: t("text_games_noncommercial_2_name"),
-      description: t("text_games_noncommercial_2_desc"),
+      title: t("text_games_noncommercial_11_name"),
+      description: t("text_games_noncommercial_11_desc"),
       image: "/images/synergy.jpg",
       screenshots: [
         "/images/synergy1.jpg",
@@ -119,15 +137,15 @@ export default function GamesPage() {
 		"/images/synergy5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_2_extra"),
+        t("text_games_noncommercial_11_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_2_link_1"), url: "https://drive.google.com/file/d/12IfG-XdxQJV0xzTeK7orbz4Hd4jXTiqF/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_2_link_2"), url: "https://itch.io/jam/katana-jam-ii/rate/1800512" },
+		{ label: t("text_games_noncommercial_11_link_1"), url: "https://drive.google.com/file/d/12IfG-XdxQJV0xzTeK7orbz4Hd4jXTiqF/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_11_link_2"), url: "https://itch.io/jam/katana-jam-ii/rate/1800512" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_3_name"),
-      description: t("text_games_noncommercial_3_desc"),
+      title: t("text_games_noncommercial_10_name"),
+      description: t("text_games_noncommercial_10_desc"),
       image: "/images/furydices.jpg",
       screenshots: [
         "/images/furydices1.jpg",
@@ -137,15 +155,15 @@ export default function GamesPage() {
 		"/images/furydices5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_3_extra"),
+        t("text_games_noncommercial_10_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_3_link_1"), url: "https://drive.google.com/file/d/1qpSXlqVRvIArBu0lknHKQirBQftaexDv/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_1_link_2"), url: "https://itch.io/jam/gmtk-jam-2022/rate/1621992" },
+		{ label: t("text_games_noncommercial_10_link_1"), url: "https://drive.google.com/file/d/1qpSXlqVRvIArBu0lknHKQirBQftaexDv/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_10_link_2"), url: "https://itch.io/jam/gmtk-jam-2022/rate/1621992" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_4_name"),
-      description: t("text_games_noncommercial_4_desc"),
+      title: t("text_games_noncommercial_9_name"),
+      description: t("text_games_noncommercial_9_desc"),
       image: "/images/keshasgrillhouse.jpg",
       screenshots: [
         "/images/keshasgrillhouse1.jpg",
@@ -155,15 +173,15 @@ export default function GamesPage() {
 		"/images/keshasgrillhouse5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_4_extra"),
+        t("text_games_noncommercial_9_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_4_link_1"), url: "https://drive.google.com/file/d/1yhSDMAWWpp_5xqnlk4Y3EYAqRYEvUWMW/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_4_link_2"), url: "https://darksamuraimax.itch.io/keshas-grillhouse" },
+		{ label: t("text_games_noncommercial_9_link_1"), url: "https://drive.google.com/file/d/1yhSDMAWWpp_5xqnlk4Y3EYAqRYEvUWMW/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_9_link_2"), url: "https://darksamuraimax.itch.io/keshas-grillhouse" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_5_name"),
-      description: t("text_games_noncommercial_5_desc"),
+      title: t("text_games_noncommercial_8_name"),
+      description: t("text_games_noncommercial_8_desc"),
       image: "/images/mergingfluids.jpg",
       screenshots: [
         "/images/mergingfluids1.jpg",
@@ -173,15 +191,15 @@ export default function GamesPage() {
 		"/images/mergingfluids5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_5_extra"),
+        t("text_games_noncommercial_8_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_5_link_1"), url: "https://drive.google.com/file/d/1NxyXK4x6OMTNEpRXjVnEUc2L_S5nLnwg/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_5_link_2"), url: "https://itch.io/jam/gmtk-2021/rate/1085071" },
+		{ label: t("text_games_noncommercial_8_link_1"), url: "https://drive.google.com/file/d/1NxyXK4x6OMTNEpRXjVnEUc2L_S5nLnwg/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_8_link_2"), url: "https://itch.io/jam/gmtk-2021/rate/1085071" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_6_name"),
-      description: t("text_games_noncommercial_6_desc"),
+      title: t("text_games_noncommercial_7_name"),
+      description: t("text_games_noncommercial_7_desc"),
       image: "/images/wintermishap.jpg",
       screenshots: [
         "/images/wintermishap1.jpg",
@@ -191,17 +209,17 @@ export default function GamesPage() {
 		"/images/wintermishap5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_6_extra"),
+        t("text_games_noncommercial_7_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_6_link_1"), url: "https://drive.google.com/file/d/1wUk0JerubavtFBW-N6XP-ztf3phRju1y/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_6_link_2"), url: "https://itch.io/jam/-winterjam2020/rate/853879" },
-		{ label: t("text_games_noncommercial_6_link_3"), url: "https://www.youtube.com/watch?v=DFU7T8p2j_o" },
-		{ label: t("text_games_noncommercial_6_link_4"), url: "https://www.youtube.com/watch?v=ConHkh3O7mE" },
+		{ label: t("text_games_noncommercial_7_link_1"), url: "https://drive.google.com/file/d/1wUk0JerubavtFBW-N6XP-ztf3phRju1y/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_7_link_2"), url: "https://itch.io/jam/-winterjam2020/rate/853879" },
+		{ label: t("text_games_noncommercial_7_link_3"), url: "https://www.youtube.com/watch?v=DFU7T8p2j_o" },
+		{ label: t("text_games_noncommercial_7_link_4"), url: "https://www.youtube.com/watch?v=ConHkh3O7mE" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_7_name"),
-      description: t("text_games_noncommercial_7_desc"),
+      title: t("text_games_noncommercial_6_name"),
+      description: t("text_games_noncommercial_6_desc"),
       image: "/images/hardworker.jpg",
       screenshots: [
         "/images/hardworker1.jpg",
@@ -211,16 +229,16 @@ export default function GamesPage() {
 		"/images/hardworker5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_7_extra"),
+        t("text_games_noncommercial_6_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_7_link_1"), url: "https://drive.google.com/file/d/1OFX5uLesvSejBG4n0gPWwqMadtpNSSi6/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_7_link_2"), url: "https://itch.io/jam/ludum-dare-47-indikator/rate/777003" },
-		{ label: t("text_games_noncommercial_7_link_3"), url: "https://www.youtube.com/watch?v=pVNmlrj9Bk4" },
+		{ label: t("text_games_noncommercial_6_link_1"), url: "https://drive.google.com/file/d/1OFX5uLesvSejBG4n0gPWwqMadtpNSSi6/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_6_link_2"), url: "https://itch.io/jam/ludum-dare-47-indikator/rate/777003" },
+		{ label: t("text_games_noncommercial_6_link_3"), url: "https://www.youtube.com/watch?v=pVNmlrj9Bk4" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_8_name"),
-      description: t("text_games_noncommercial_8_desc"),
+      title: t("text_games_noncommercial_5_name"),
+      description: t("text_games_noncommercial_5_desc"),
       image: "/images/frabbits.jpg",
       screenshots: [
         "/images/frabbits1.jpg",
@@ -230,15 +248,15 @@ export default function GamesPage() {
 		"/images/frabbits5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_8_extra"),
+        t("text_games_noncommercial_5_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_8_link_1"), url: "https://drive.google.com/file/d/1AUCWQ8bjs4uTxvvdLwV77PuPwxgT0xTN/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_8_link_2"), url: "https://itch.io/jam/gmtk-2020/rate/697890" },
+		{ label: t("text_games_noncommercial_5_link_1"), url: "https://drive.google.com/file/d/1AUCWQ8bjs4uTxvvdLwV77PuPwxgT0xTN/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_5_link_2"), url: "https://itch.io/jam/gmtk-2020/rate/697890" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_9_name"),
-      description: t("text_games_noncommercial_9_desc"),
+      title: t("text_games_noncommercial_4_name"),
+      description: t("text_games_noncommercial_4_desc"),
       image: "/images/restory.jpg",
       screenshots: [
         "/images/restory1.jpg",
@@ -248,15 +266,15 @@ export default function GamesPage() {
 		"/images/restory5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_9_extra"),
+        t("text_games_noncommercial_4_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_9_link_1"), url: "https://drive.google.com/file/d/1TmS4-NmD57AfiBNiDWZdTSYSEmw_1e8X/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_9_link_2"), url: "https://forum.gamemaker.io/index.php?threads/gmc-jam-37-games-topic-enter-here.75650/#post-448379" },
+		{ label: t("text_games_noncommercial_4_link_1"), url: "https://drive.google.com/file/d/1TmS4-NmD57AfiBNiDWZdTSYSEmw_1e8X/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_4_link_2"), url: "https://forum.gamemaker.io/index.php?threads/gmc-jam-37-games-topic-enter-here.75650/#post-448379" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_10_name"),
-      description: t("text_games_noncommercial_10_desc"),
+      title: t("text_games_noncommercial_3_name"),
+      description: t("text_games_noncommercial_3_desc"),
       image: "/images/zatopeelo.jpg",
       screenshots: [
         "/images/zatopeelo1.jpg",
@@ -266,14 +284,14 @@ export default function GamesPage() {
 		"/images/zatopeelo5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_10_extra"),
+        t("text_games_noncommercial_3_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_10_link_1"), url: "https://drive.google.com/file/d/1TvPaGd7UxoWHpErVWaxRYilaOpYMPkkb/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_3_link_1"), url: "https://drive.google.com/file/d/1TvPaGd7UxoWHpErVWaxRYilaOpYMPkkb/view?usp=sharing" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_11_name"),
-      description: t("text_games_noncommercial_11_desc"),
+      title: t("text_games_noncommercial_2_name"),
+      description: t("text_games_noncommercial_2_desc"),
       image: "/images/bantimesimulator.jpg",
       screenshots: [
         "/images/bantimesimulator1.jpg",
@@ -283,15 +301,15 @@ export default function GamesPage() {
 		"/images/bantimesimulator5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_11_extra"),
+        t("text_games_noncommercial_2_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_11_link_1"), url: "https://drive.google.com/file/d/1mkFAU6liwdZXKWjcg5XVo2Qshp3zEchz/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_11_link_2"), url: "https://gamejolt.com/games/BTS/267863" },
+		{ label: t("text_games_noncommercial_2_link_1"), url: "https://drive.google.com/file/d/1mkFAU6liwdZXKWjcg5XVo2Qshp3zEchz/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_2_link_2"), url: "https://gamejolt.com/games/BTS/267863" },
 		],
     },
 	    {
-      title: t("text_games_noncommercial_12_name"),
-      description: t("text_games_noncommercial_12_desc"),
+      title: t("text_games_noncommercial_1_name"),
+      description: t("text_games_noncommercial_1_desc"),
       image: "/images/ncyclopedia.jpg",
       screenshots: [
         "/images/ncyclopedia1.jpg",
@@ -301,10 +319,10 @@ export default function GamesPage() {
 		"/images/ncyclopedia5.jpg",
       ],
       extraText:
-        t("text_games_noncommercial_12_extra"),
+        t("text_games_noncommercial_1_extra"),
 	  extraLinks: [
-		{ label: t("text_games_noncommercial_12_link_1"), url: "https://drive.google.com/file/d/149hksfeengw6i_VElcbvtFStIspETknL/view?usp=sharing" },
-		{ label: t("text_games_noncommercial_12_link_2"), url: "https://vk.com/wall-55761651_7863" },
+		{ label: t("text_games_noncommercial_1_link_1"), url: "https://drive.google.com/file/d/149hksfeengw6i_VElcbvtFStIspETknL/view?usp=sharing" },
+		{ label: t("text_games_noncommercial_1_link_2"), url: "https://vk.com/wall-55761651_7863" },
 		],
     },
   ];
@@ -345,9 +363,9 @@ const processedCommercialProjects = commercialProjects.map((project) => {
   if (project.slug === "nda" && secretMode) {
     return {
       ...project,
-      title: t("text_games_commercial_4_name"),
+      title: t("text_games_commercial_0_name"),
       description:
-        t("text_games_commercial_4_desc"),
+        t("text_games_commercial_0_desc"),
       image: "/images/wh40ksm2.jpg",
       screenshots: [
         "/images/waha1.jpg",
@@ -362,12 +380,12 @@ const processedCommercialProjects = commercialProjects.map((project) => {
 		"/images/waha10.jpg",
       ],
       extraText:
-        t("text_games_commercial_4_extra"),
+        t("text_games_commercial_0_extra"),
 	  extraLinks: [
-		{ label: t("text_games_commercial_4_link_1"), url: "https://www.youtube.com/watch?v=mJntSVa4OBE" },
-		{ label: t("text_games_commercial_4_link_2"), url: "http://youtube.com/watch?v=Lu2t6jyrjdg&list=PLA9eDv4GHfSCe9T3bp-ll11sbQ4eqv__f" },
-		{ label: t("text_games_commercial_4_link_3"), url: "https://en.wikipedia.org/wiki/Warhammer_40,000:_Space_Marine_2" },
-		{ label: t("text_games_commercial_4_link_4"), url: "https://community.focus-entmt.com/focus-entertainment/space-marine-2/blogs" },
+		{ label: t("text_games_commercial_0_link_1"), url: "https://www.youtube.com/watch?v=mJntSVa4OBE" },
+		{ label: t("text_games_commercial_0_link_2"), url: "http://youtube.com/watch?v=Lu2t6jyrjdg&list=PLA9eDv4GHfSCe9T3bp-ll11sbQ4eqv__f" },
+		{ label: t("text_games_commercial_0_link_3"), url: "https://en.wikipedia.org/wiki/Warhammer_40,000:_Space_Marine_2" },
+		{ label: t("text_games_commercial_0_link_4"), url: "https://community.focus-entmt.com/focus-entertainment/space-marine-2/blogs" },
 		],
     };
   }

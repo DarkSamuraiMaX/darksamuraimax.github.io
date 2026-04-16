@@ -2,16 +2,13 @@
   "name": "darksamuraimax-portfolio",
   "version": "1.0.0",
   "private": true,
-
   "homepage": "https://darksamuraimax.github.io/DarkSamuraiMaX/",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-
   "dependencies": {
     "framer-motion": "^10.12.5",
     "lucide-react": "^0.548.0",
@@ -19,17 +16,14 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.9.6"
   },
-
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.16",
-    "baseline-browser-mapping": "^2.9.11",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.13",
     "vite": "^7.1.12"
   },
-
   "browserslist": [
     "defaults"
   ]
