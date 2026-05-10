@@ -2815,6 +2815,16 @@ export const translations = [
     en: "A table outlining player flow, engagement, and monetization for a casual nonogram puzzle",
   },
   {
+    id: "text_documents_5_name",
+    ru: "Концепт возможного апдейта для Quarantine Zone: The Last Check",
+    en: "Concept for a potential update for Quarantine Zone: The Last Check",
+  },
+  {
+    id: "text_documents_5_desc",
+    ru: "Дизайн-документ  нового персонажа, ивента и механики на основе существующего в игре контента (был написан в качестве тестового задания)",
+    en: "A game design document for a new character, event, and mechanic based on existing content in the game (was created as a test task)",
+  },
+  {
     id: "text_404_title",
     ru: "404",
     en: "404",

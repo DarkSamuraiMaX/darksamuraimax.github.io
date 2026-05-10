@@ -48,6 +48,15 @@ export default function DocumentsPage() {
       lang: "RU",
       url: "https://docs.google.com/spreadsheets/d/1GOQKay6q-Ta31SpZVIAGbFjd1ooD00yBTepwV27xtFw/",
     },
+    {
+      id: 5,
+      titleKey: "text_documents_5_name",
+      descKey: "text_documents_5_desc",
+      categoryKey: "text_documents_category_designdoc",
+      type: "doc",
+      lang: "EN",
+      url: "https://docs.google.com/document/d/13HD6kUAc70nPisIdN9wB3j_raYh2VkzHn9RoPqqYGaI/",
+    },
   ];
 
   const TYPE_ICON = {
