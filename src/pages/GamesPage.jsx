@@ -427,7 +427,7 @@ const processedCommercialProjects = commercialProjects.map((project) => {
   <div className="flex justify-center">
     <img
       src={big}
-	  alt={`${project.title} screenshot`}
+	  alt={`${project.title} gameplay screenshot`}
       className="max-h-[400px] object-cover rounded-xl shadow-lg mb-3"
     />
   </div>

@@ -211,8 +211,8 @@ export const translations = [
   },
   {
     id: "text_games_commercial_3_extra",
-    ru: "Комментарий:\nКто б знал, как меня занесло в эту франшизу, но это мой первый (и, надеюсь, не последний) ААА-проект. Адуха, конечно, та ещё, но зато получилось научиться куче вещей и прикоснуться в той или иной мере почти ко всем возможным сторонам игроделания и научиться тонне штук. Да и результат, судя по отзывам, получился весьма неплохой. \n\nДостижения проекта:\n• 2 миллиона уникальных игроков за первые 5 дней, 4,5 миллиона проданных копий всего за месяц, 12 миллионов уникальных игроков к апрелю 2026 года.\n• Пиковый одновременный онлайн в Steam - 225 690 игроков, среднее количество активных пользователей в месяц - около 8–10 тысяч одновременно играющих в Steam, с пиковыми значениями до 20 тысяч.\n• Ожидаемая выручка - 200 миллионов долларов, чистая прибыль ≈ 62 миллиона долларов.\n• Рост интереса к другим играм по той же интеллектуальной собственности и франшизе в целом.\n• Проект получил награду Pégases Award 2025 (лучшая зарубежная видеоигра), премию TIGA Games Industry Award 2025 (лучшее использование лицензии) и был номинирован на престижные премии: The Game Awards (лучший экшен, многопользовательский режим), Golden Joystick (лучший визуальный дизайн), Steam Awards, D.I.C.E. Awards и BAFTA Games Awards.",
-    en: "Comment:\nWho would have thought I’d end up in this franchise, but this is my first (and hopefully not the last) AAA project. It was intense, to say the least, but it allowed me to learn a tremendous amount and get hands-on experience with nearly every aspect of game development. Judging by the feedback, the final result turned out quite great.\n\nProject achievements:\n• 2 million unique players in the first 5 days, 4.5 million copies sold within the first month, 12 million unique players by April 2026.\n• Peak concurrent players on Steam - 225,690; average monthly active users - around 8–10 thousand concurrent players on Steam, with peaks reaching up to 20 thousand.\n• Expected revenue - $200 million; net profit ≈ $62 million.\n• Increased interest in other games within the same IP and the franchise overall.\n• The project received the Pégases Award 2025 (Best International Video Game), the TIGA Games Industry Award 2025 (Best Use of a License), and was nominated for prestigious awards including The Game Awards (Best Action Game, Best Multiplayer), Golden Joystick (Best Visual Design), Steam Awards, D.I.C.E. Awards, and BAFTA Games Awards.",
+    ru: "Комментарий:\nКто б знал, как меня занесло в эту франшизу, но это мой первый (и, надеюсь, не последний) ААА-проект. Адуха, конечно, та ещё, но зато получилось научиться куче вещей и прикоснуться в той или иной мере почти ко всем возможным сторонам игроделания и научиться тонне штук. Да и результат, судя по отзывам, получился весьма неплохой. \n\nДостижения проекта:\n• 2 миллиона уникальных игроков за первые 5 дней, 4,5 миллиона проданных копий всего за месяц, 15 миллионов уникальных игроков к октябрю 2026 года.\n• Пиковый одновременный онлайн в Steam - 225 690 игроков, среднее количество активных пользователей в месяц - около 8–10 тысяч одновременно играющих в Steam, с пиковыми значениями до 20 тысяч.\n• Ожидаемая выручка - 200 миллионов долларов, чистая прибыль ≈ 62 миллиона долларов.\n• Рост интереса к другим играм по той же интеллектуальной собственности и франшизе в целом.\n• Проект получил награду Pégases Award 2025 (лучшая зарубежная видеоигра), премию TIGA Games Industry Award 2025 (лучшее использование лицензии) и был номинирован на престижные премии: The Game Awards (лучший экшен, многопользовательский режим), Golden Joystick (лучший визуальный дизайн), Steam Awards, D.I.C.E. Awards и BAFTA Games Awards.",
+    en: "Comment:\nWho would have thought I’d end up in this franchise, but this is my first (and hopefully not the last) AAA project. It was intense, to say the least, but it allowed me to learn a tremendous amount and get hands-on experience with nearly every aspect of game development. Judging by the feedback, the final result turned out quite great.\n\nProject achievements:\n• 2 million unique players in the first 5 days, 4.5 million copies sold within the first month, 15 million unique players by October 2026.\n• Peak concurrent players on Steam - 225,690; average monthly active users - around 8–10 thousand concurrent players on Steam, with peaks reaching up to 20 thousand.\n• Expected revenue - $200 million; net profit ≈ $62 million.\n• Increased interest in other games within the same IP and the franchise overall.\n• The project received the Pégases Award 2025 (Best International Video Game), the TIGA Games Industry Award 2025 (Best Use of a License), and was nominated for prestigious awards including The Game Awards (Best Action Game, Best Multiplayer), Golden Joystick (Best Visual Design), Steam Awards, D.I.C.E. Awards, and BAFTA Games Awards.",
   },
   {
     id: "text_games_commercial_3_link_1",
@@ -2496,8 +2496,8 @@ export const translations = [
   },
   {
     id: "text_videos_unsorted_desc_4",
-    ru: "Сюда меня пригласили в качестве эксперта по гейм-дизайну для консультации по роли нейросетей в современном геймдеве.",
-    en: "I was invited here as a game design expert to consult on the role of neural networks in modern game development.",
+    ru: "Сюда меня пригласили в качестве эксперта по гейм-дизайну для консультации по роли нейросетей в современном геймдеве (когда это еще было новой интересной технологией, а не мировой проблемой).",
+    en: "I was invited here as a game design expert to consult on the role of neural networks in modern game development (when it was still a new interesting technology, rather than a global problem).",
   },
   {
     id: "text_videos_cheating_comment_4",
@@ -2520,9 +2520,14 @@ export const translations = [
     en: "Unfortunately, the ending of the lecture felt a bit rushed because the beginning had been rescheduled several times. I’ll need to update the script and eventually release a full version somewhere.",
   },
   {
-    id: "text_about_start",
-    ru: "Ага, это я, колдую над очередным дизайном. Вам, наверно, интересно, как я оказался в такой ситуации? Что ж, для этого понадобится не только вспомнить это классическое клише, но и откатиться к самому началу. Постараюсь, чтобы это не выглядело слишком ЧСВшно, но вы сами видели, что я себе сайт сделал, так что ничего не могу обещать.",
-    en: "Yep, that's me, conjuring up yet another design. You’re probably wondering how I ended up in this situation? Well, for that we’ll need not only to recall this classic cliché, but also rewind all the way back to the very beginning. I’ll try not to make this sound like an inflated ego speech, but you’ve seen that I made myself a website, so I can’t promise anything.",
+    id: "text_about_start_1",
+    ru: "Ага, это я, колдую над очередным дизайном. Этим я занимаюсь уже больше 8 лет, специализируясь на системах, геймплее и метагейме, а также выполняя обязанности тимлида. Из жанров мне ближе экшены, хак-н-слеш игры и шутеры от третьего лица, и с учетом пет-проектов платформеры, адвенчуры и игры в ретро-стилистике. В той или иной мере работал с различными движками (Unity, Unreal Engine, Game Maker), но больше всего с проприетарными. Успел поработать над самыми разнообразными видами фич и научиться целой куче навыков, а что не умею - научусь за пару недель.",
+    en: "Yep, that's me, conjuring up yet another design. I've been working in this field for over 8 years, specializing in systems, gameplay, and metagame design, while also serving as a team lead. Genres I work with include action games, hack-and-slash titles, and third-person shooters, and through my personal projects, also platformers, adventure games, and retro-style titles. I have worked to varying degrees with several game engines (Unity, Unreal Engine, GameMaker), though most of my experience has been with proprietary engines. I have contributed to a wide range of features and acquired a diverse set of skills, and if there is something I don’t yet know, I can learn it within a couple of weeks.",
+  },
+  {
+    id: "text_about_start_2",
+    ru: "Вам, наверно, интересно, как я оказался в такой ситуации? Что ж, для этого понадобится не только вспомнить это классическое клише, но и откатиться к самому началу. Постараюсь, чтобы это не выглядело слишком ЧСВшно, но вы сами видели, что я себе сайт сделал, так что ничего не могу обещать.",
+    en: "You’re probably wondering how I ended up in this situation? Well, for that we’ll need not only to recall this classic cliché, but also rewind all the way back to the very beginning. I’ll try not to make this sound like an inflated ego speech, but you’ve seen that I made myself a website, so I can’t promise anything.",
   },
   {
     id: "text_about_history_title",
@@ -2681,8 +2686,8 @@ export const translations = [
   },
   {
     id: "text_about_trivia_text_6",
-    ru: "Люблю выступать на различных ивентах и конференциях (например, выступал с лекциями “Что-то о гейм-дизайне” на аниме-фестивале Tofu Fest и “Что, где, когда и у кого украл: Blizzard и Games Workshop” на ивенте Дни Вархаммера);",
-    en: "I enjoy speaking at various events and conferences (for example, I gave lectures titled “Something About Game Design” at the anime festival Tofu Fest and “Who Stole What from Whom: Blizzard and Games Workshop” at Warhammer Days);",
+    ru: "Люблю выступать на различных ивентах и конференциях (например, выступал с лекциями “Больше, чем поп-ап: Гейм-дизайн достижений как части игрового опыта” на WN Conference, “Что-то о гейм-дизайне” на аниме-фестивале Tofu Fest и “Что, где, когда и у кого украл: Blizzard и Games Workshop” на ивенте Дни Вархаммера);",
+    en: "I enjoy speaking at various events and conferences (for example, I gave lectures titled “More Than a Pop-Up: Designing Achievements as Part of the Player Experience” at WN Conference, “Something About Game Design” at the anime festival Tofu Fest, and “Who Stole What from Whom: Blizzard and Games Workshop” at Warhammer Days event);",
   },
   {
     id: "text_about_trivia_text_7",
@@ -2776,53 +2781,73 @@ export const translations = [
   },
   {
     id: "text_documents_1_name",
+    ru: "Больше, чем поп-ап: Гейм-дизайн достижений как части игрового опыта",
+    en: "More Than a Pop-Up: Designing Achievements as Part of the Player Experience",
+  },
+  {
+    id: "text_documents_1_desc",
+    ru: "Дизайн системы достижений как самостоятельной системы, которая формирует и улучшает опыт игрока (на примере разработки Warhammer 40,000: Space Marine 2)",
+    en: "Designing achievements as a distinct game system that shapes and enriches the player experience, drawing on the development of Warhammer 40,000: Space Marine 2",
+  },
+  {
+    id: "text_documents_2_name",
     ru: "Кто что у кого украл? Blizzard vs GW",
     en: "Who Stole What from Whom? Blizzard vs GW",
   },
   {
-    id: "text_documents_1_desc",
+    id: "text_documents_2_desc",
     ru: "Разбор заимствования дизайна между играми серий Warcraft, Starcraft и Warhammer",
     en: "An analysis of design borrowing between the Warcraft, StarCraft, and Warhammer series",
   },
   {
-    id: "text_documents_2_name",
+    id: "text_documents_3_name",
     ru: "Концепт игры Viral Wars",
     en: "Viral Wars Game Concept",
   },
   {
-    id: "text_documents_2_desc",
+    id: "text_documents_3_desc",
     ru: "Дизайн-документ игры на основе клеточного автомата Game of Life",
     en: "A game design document based on the cellular automaton Game of Life",
   },
   {
-    id: "text_documents_3_name",
+    id: "text_documents_4_name",
     ru: "Питчдок игры LawLife",
     en: "LawLife Pitch Deck",
   },
   {
-    id: "text_documents_3_desc",
+    id: "text_documents_4_desc",
     ru: "Питч игры в жанре экономического симулятора юридической фирмы",
     en: "A pitch for an economic simulation game about running a law firm",
   },
   {
-    id: "text_documents_4_name",
-    ru: "Экономика нонограм-пазла",
+    id: "text_documents_5_name",
+    ru: "Концепт возможного апдейта для Potion Craft",
     en: "Nonogram Puzzle Economy",
   },
   {
-    id: "text_documents_4_desc",
-    ru: "Таблица флоу, интереса игроков и монетизации для казуального нонограм-пазла",
-    en: "A table outlining player flow, engagement, and monetization for a casual nonogram puzzle",
+    id: "text_documents_5_desc",
+    ru: "Дизайн-документ нового ингредиента, заказов и механики на основе существующего в игре контента (был написан в качестве тестового задания)",
+    en: "A game design document for a new ingredient, orders, and mechanic based on existing content in the game (was created as a test task)",
   },
   {
-    id: "text_documents_5_name",
+    id: "text_documents_6_name",
     ru: "Концепт возможного апдейта для Quarantine Zone: The Last Check",
     en: "Concept for a potential update for Quarantine Zone: The Last Check",
   },
   {
-    id: "text_documents_5_desc",
-    ru: "Дизайн-документ  нового персонажа, ивента и механики на основе существующего в игре контента (был написан в качестве тестового задания)",
+    id: "text_documents_6_desc",
+    ru: "Дизайн-документ нового персонажа, ивента и механики на основе существующего в игре контента (был написан в качестве тестового задания)",
     en: "A game design document for a new character, event, and mechanic based on existing content in the game (was created as a test task)",
+  },
+  {
+    id: "text_documents_7_name",
+    ru: "Экономика нонограм-пазла",
+    en: "Nonogram Puzzle Economy",
+  },
+  {
+    id: "text_documents_7_desc",
+    ru: "Таблица флоу, интереса игроков и монетизации для казуального нонограм-пазла",
+    en: "A table outlining player flow, engagement, and monetization for a casual nonogram puzzle",
   },
   {
     id: "text_404_title",

@@ -19,13 +19,16 @@ const { t } = useLanguage();
                <section className="grid md:grid-cols-[1fr_2fr] gap-8 items-start">
 				<img
 				src="/images/about1.jpg"
-				alt="about 1 photo"
-				className="select-none"
+				alt="Maxim DarkSamurai Ostanin game designer photo"
+				className="select-none w-full rounded-lg"
 				draggable="false"
 				/>
 
                   <p>
-                    {t("text_about_start")}
+                    {t("text_about_start_1")}
+					<br />
+					<br />
+                    {t("text_about_start_2")}
                   </p>
               </section>
 
@@ -43,7 +46,7 @@ const { t } = useLanguage();
 				<figure className="w-full bg-black/40 rounded-xl p-2">
 				<img
 				src="/images/about2.jpg"
-				alt="about 2 photo"
+				alt="Maxim DarkSamurai Ostanin game designer collection"
 				className="select-none w-full rounded-lg"
 				draggable="false"
 				/>
@@ -73,7 +76,7 @@ const { t } = useLanguage();
 				<br />
 				<img
 				src="/images/pika.jpg"
-				alt="Pila Games logo"
+				alt="Pika Games logo"
 				className="mx-auto select-none rounded-xl"
 				draggable="false"
 				/>
@@ -144,7 +147,7 @@ const { t } = useLanguage();
                 <div className="w-full bg-black/40 p-2 order-1 md:order-2">
 				<img
 				src="/images/about3.jpg"
-				alt="about 3 photo"
+				alt="Maxim DarkSamurai Ostanin game designer preferences"
 				className="select-none"
 				draggable="false"
 				/>
@@ -158,7 +161,7 @@ const { t } = useLanguage();
                   <div className="flex items-center justify-center text-gray-400">
 				<img
 				src="/images/about4.jpg"
-				alt="about 4 photo"
+				alt="game designer meme"
 				className="select-none"
 				draggable="false"
 				/>
@@ -179,24 +182,24 @@ const { t } = useLanguage();
                   <div className="flex items-center justify-center text-gray-400">
 				<img
 				src="/images/about5.jpg"
-				alt="about 5 photo"
-				className="select-none"
+				alt="Iron Games logo Maxim DarkSamurai Ostanin"
+				className="select-none w-full rounded-lg"
 				draggable="false"
 				/>
                   </div>
                   <div className="flex items-center justify-center text-gray-400">
 				<img
 				src="/images/about6.jpg"
-				alt="about 6 photo"
-				className="select-none"
+				alt="Katana Jam IV logo"
+				className="select-none w-full rounded-lg"
 				draggable="false"
 				/>
                   </div>
                   <div className="flex items-center justify-center text-gray-400">
 				<img
 				src="/images/about7.jpg"
-				alt="about 7 photo"
-				className="select-none"
+				alt="Maxim DarkSamurai Ostanin game designer collection"
+				className="select-none w-full rounded-lg"
 				draggable="false"
 				/>
                   </div>
@@ -223,7 +226,7 @@ const { t } = useLanguage();
 				<figure className="w-full bg-black/40 rounded-xl p-2">
 				<img
 				src="/images/about8.jpg"
-				alt="about 8 photo"
+				alt="Maxim DarkSamurai Ostanin game designer photo"
 				className="select-none w-full rounded-lg"
 				draggable="false"
 				/>
