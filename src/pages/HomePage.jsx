@@ -89,7 +89,7 @@ export default function HomePage() {
 
               <div className="bg-black/40 rounded-xl p-8 shadow-lg backdrop-blur-sm">
                 <div className="grid md:grid-cols-3 gap-6">
-                  <a href="https://docs.google.com/document/d/1Y0Oh9BIcF9NSr_6YmS6qrN4h0TMT9n1iCgAzCnmIlzw/" target="_blank" rel="noopener noreferrer" 
+                  <a href="https://docs.google.com/document/d/146-iFh52WsIqzkVsx_39ks5XxyXQI2es5rabblasDlk/" target="_blank" rel="noopener noreferrer" 
 				  className="block bg-gray-950 hover:bg-gray-800 transition rounded-xl p-4">
                     <h3 className="font-semibold text-lg">{t("text_home_documents_1_name")}</h3>
 					<h4 className="text-sm text-gray-400 mt-1">{t("text_home_documents_1_desc")}</h4>

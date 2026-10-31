@@ -51,13 +51,13 @@ export const translations = [
   },
   {
     id: "text_home_documents_1_name",
-    ru: "Кто что у кого украл? Blizzard vs GW",
-    en: "Who Borrowed What from Whom? Blizzard vs GW",
+    ru: "Гейм-дизайн достижений как части игрового опыта",
+    en: "Designing Achievements as Part of the Player Experience",
   },
   {
     id: "text_home_documents_1_desc",
-    ru: "Разбор заимствования дизайна между играми серий Warcraft, Starcraft и Warhammer",
-    en: "An analysis of design borrowings between the Warcraft, StarCraft, and Warhammer series",
+    ru: "Статья о разработке системы достижений с примерами из Space Marine 2.",
+    en: "An article about achievement design with examples from Space Marine 2",
   },
   {
     id: "text_home_documents_2_name",
